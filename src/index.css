@@ -1,30 +1,37 @@
 body{
-  background-color: #444;
-  color: white;
+  background-color:white;
+  color: black;
   margin: 20px;
-  font: 32px "Century Gothic", Futura, sans-serif;
+  font: 50px "Century Gothic", Futura, sans-serif;
 }
 .game {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .board-row{
   display: flex;
   flex-flow: row nowrap;
 }
 .square{
-  background-color: #444;
+  background-color: #444444;
   color:white;
   border: 1px solid #999;
   padding: 0;
-  font-size: 84px;
+  font-size: 100px;
   text-align: center;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .square:focus{
   outline: none;
-  background-color: #222;
+  background-color: black;
+  
+}
+
+.status{
+  margin:20px;
+  font-size:24px;
 }
